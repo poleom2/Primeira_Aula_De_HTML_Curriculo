@@ -1,0 +1,59 @@
+*{
+   
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image:image-set(url("Imagem/Imagem1.jpg") ); 
+    color: rgb(255, 255, 255);
+    padding: 200px 0;
+    text-align: center;
+    font-size: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}h2{
+    color: red;
+}
+
+main{
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+section.sobre-mim{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(209, 202, 202);
+    color: rgb(5, 5, 5);
+    font-size: 1.5rem;
+    padding: 200px;
+  
+    
+
+}
+section.habilidades{
+  display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(93, 91, 91);
+    color: rgb(5, 5, 5);
+    font-size: 1.5rem;
+    padding: 200px;
+    
+}
+
+
