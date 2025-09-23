@@ -14,7 +14,7 @@ header{
     font-size: 32px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
 
 
@@ -23,12 +23,13 @@ header{
 }
 
 main{
-    padding: 200px;
+   
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    width: 100%;
     align-items: center;
     justify-content: center;
+    
 
     
     
@@ -41,18 +42,30 @@ section.sobre-mim{
     color: rgb(5, 5, 5);
     font-size: 1.5rem;
     padding: 200px;
+    .imagemperfil{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+    }
+    .apresentacao{
+        display: flex;
+        flex-direction: row;
+        align-items: row;
+        justify-content: center;
   
-    
-
+    }
 }
 section.habilidades{
   display: flex;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgb(93, 91, 91);
+    width: 100%;
     color: rgb(5, 5, 5);
     font-size: 1.5rem;
     padding: 200px;
+
     
 }
 
