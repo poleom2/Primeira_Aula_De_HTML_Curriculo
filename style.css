@@ -42,31 +42,51 @@ section.sobre-mim{
     color: rgb(5, 5, 5);
     font-size: 1.5rem;
     padding: 200px;
-    .imagemperfil{
-        width: 100px;
-        height: 100px;
-        border-radius: 100px;
-        margin-bottom: 20px;
-    }
+    width: 100%;
+    
+}
     .apresentacao{
         display: flex;
-        flex-direction: row;
-        align-items: row;
+        flex-direction: column;
+       
         justify-content: center;
   
     }
-}
+
 section.habilidades{
-  display: flex;
-    text-align: center;
+    display: flex;;
+    align-items: row;
     flex-direction: row;
     background-color: rgb(93, 91, 91);
     width: 100%;
     color: rgb(5, 5, 5);
     font-size: 1.5rem;
     padding: 200px;
-
-    
+    list-style: none;
 }
+.habilidades-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 20px ;
+    padding: 28px;
+    list-style: none;
+    width: 600px;
+}
+
+.habilidades-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 20px ;
+    padding: 28px;
+    list-style: none;
+    width: 500px;
+}
+
 
 
