@@ -110,5 +110,27 @@ section.contato{
     gap: 24px;
 }
 
+.apresentacao img{
+    width: 165px;          /* mantém seu tamanho */
+    height: 200px;         /* garante proporção para o recorte */
+    object-fit: cover;     /* evita distorções */
+    border-radius: 16px;   /* cantos arredondados suaves */
+    box-shadow: 0 6px 18px rgba(0,0,0,.15); /* opcional: sombra leve */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
+h1, h2, h3 {
+    font-weight: 600; /* mais grosso */
+    letter-spacing: 1px;
+}
+
+p, li, span {
+    font-weight: 300; /* mais fino */
+    line-height: 1.6;
+}
 
