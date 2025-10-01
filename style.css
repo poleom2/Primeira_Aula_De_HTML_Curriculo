@@ -7,7 +7,7 @@
 header{
     display: flex;
     flex-direction: column;
-    background-image:image-set(url("Imagem/Imagem1.jpg") ); 
+    background-image:image-set(url("Imagem/aLNv2G.png") ); 
     color: rgb(255, 255, 255);
     padding: 200px 0;
     text-align: center;
@@ -39,8 +39,8 @@ section.sobre-mim{
     text-align: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(209, 202, 202);
-    color: rgb(5, 5, 5);
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     padding: 24px;
     width: 100%;
@@ -56,15 +56,18 @@ section.sobre-mim{
         justify-content: center;
   
     }
+    .sobre-mim h2{
+        font-size: 2.5rem;
+    }
 
 section.habilidades{
     display: flex;;
     text-align: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(216, 207, 207);
+    background-color: rgb(31, 30, 30);
     width: 100%;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     padding: 24px;
     list-style: none;
@@ -78,6 +81,9 @@ section.habilidades{
     padding: 28px;
     list-style: none;
     width: 600px;
+}
+section.hablidade samp{
+    color: red;
 }
 .habilidades-conteudo ul {
     list-style: none;
@@ -102,8 +108,12 @@ section.contato{
     text-align: right;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(209, 202, 202);
-    color: rgb(5, 5, 5);
+    background-image: image-set(url("Imagem/fundo.jpg"));  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;  
+    color: rgb(243, 234, 234);
     font-size: 1.5rem;
     padding: 24px;
     width: 100%;
@@ -133,4 +143,26 @@ p, li, span {
     font-weight: 300; /* mais fino */
     line-height: 1.6;
 }
+.contato-conteudo{
+    display: flex;
+    justify-content: center;
+   flex-direction: row;
+    gap: 32px;
+    border: 20px ;
+    padding: 28px;
+    list-style: none;
+    
+   
+    
+}
+.contato-conteudo img{
+    width: 40px;
+    height: 40px;
+}
+.contato h2{
+    font-size: 2.5rem;
+    
+}
+
+
 
