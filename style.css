@@ -82,9 +82,7 @@ section.habilidades{
     list-style: none;
     width: 600px;
 }
-section.hablidade samp{
-    color: red;
-}
+
 .habilidades-conteudo ul {
     list-style: none;
 }
@@ -96,12 +94,18 @@ section.hablidade samp{
     border: 20px ;
     padding: 28px;
     list-style: none;
-    width: 500px;
+    width: 570px;
     flex-direction: column;
 }
 img{
-    width: 165px;
    
+   width: 46px;
+   background-color: aliceblue;
+   align-items: center;
+   border-radius: 25px;
+   margin-right: 20px;
+
+  
 }
 section.contato{
     display: flex;
@@ -111,13 +115,13 @@ section.contato{
     background-image: image-set(url("Imagem/fundo.jpg"));  
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    background-attachment: fixed;  
-    color: rgb(243, 234, 234);
+    background-position:top;
+
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     padding: 24px;
     width: 100%;
-    gap: 24px;
+    gap: 36px;
 }
 
 .apresentacao img{
@@ -147,10 +151,11 @@ p, li, span {
     display: flex;
     justify-content: center;
    flex-direction: row;
-    gap: 32px;
+    gap: 42px;
     border: 20px ;
     padding: 28px;
     list-style: none;
+    margin: 24px;
     
    
     
@@ -163,6 +168,4 @@ p, li, span {
     font-size: 2.5rem;
     
 }
-
-
 
